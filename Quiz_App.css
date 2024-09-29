@@ -1,0 +1,147 @@
+body {
+    font-family: 'Montserrat';
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+}
+.container  {
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    max-width: 70%;
+    height: 800px;
+    text-decoration: none;
+    box-shadow: 0  0 10px 2px;
+}
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}   
+ 
+.quiz-selection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 5px;
+    width: 95%;
+    margin: 30px;
+}
+.quiz-selection button {
+    font-size: 16px;
+}
+.btn{
+    height: 60px;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(112, 191, 243);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.btn2{
+    height: 60px;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(112, 191, 243);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn2:hover:hover{
+    background-color: aquamarine;
+    color: white; 
+}
+#selected-category{
+    color: blue;
+    font-size: 30px;
+    margin: -15px;
+    margin-bottom: 10px;
+
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    display: none;
+}
+.quiz-info div {
+    font-size: 18px;
+}
+
+.quiz-container {
+    display: none;
+}
+
+.quiz-container.active {
+    display: block;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style: none;
+    padding: 0;
+}
+
+.options li {
+    margin-bottom: 10px;
+}
+.result {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+
+.quiz-container.active {
+    display: block;
+}
+
+.result.active {
+    display: block;
+}
+
+.container1{
+    text-align: center;
+    margin: -25px;
+    font-size: 20px;
+}
+
+.user{
+    color: #5097ed;
+    font-size: 40px ;
+    margin: -20px;
+    margin-bottom: 5px;
+}
+
+.label{
+    width: 60%;
+    height: 34px;
+    margin-top: -50px;
+
+}
+#name{
+    font-size: 25px;
+    margin-bottom: -3px;
+    margin-top: -3px;
+}
+
